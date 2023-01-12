@@ -21,9 +21,7 @@ const botonAct = document.querySelector(".send")
 botonAct.innerText = edicionStr
     ? "Guardar  Cambios" : "Enviar";
 
-if (!edicionProducto) {
-    alert("No existe el producto a modificar")
-    window.location.href = "/index.html";
+
 
 }
 const valuesFormulario = Object.values(formulario)
