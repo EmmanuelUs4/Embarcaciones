@@ -23,7 +23,7 @@ botonAct.innerText = edicionStr
 
 
 
-}
+
 const valuesFormulario = Object.values(formulario)
 console.log(valuesFormulario);
 if (edicionProducto) {
