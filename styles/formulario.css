@@ -1,0 +1,66 @@
+/* lo principal y así */
+body {
+    background: url(../images/bodybackground.jpg);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 100px;
+    content: border-box;
+}
+
+main{
+    background-color: rgba(248, 157, 244, 0.836);
+    padding: 10%;
+    border-radius: 10px;
+}
+
+
+
+/* Para volver a la pág principal */
+.back:hover{
+    scale: 1.1;
+}
+
+
+
+/* Modifico el Header */
+.header{
+    text-align: center;
+}
+
+
+
+
+/* orden de cosas de texto */
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.formulario input, .formulario select, .send {
+    border-radius: 5px;
+}
+
+
+/* Cosas de texto */
+.name{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.price{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.amount{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.productType{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.send{
+    margin-top: 20px;
+}

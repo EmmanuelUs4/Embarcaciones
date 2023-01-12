@@ -1,0 +1,62 @@
+/* lo principal y así */
+body {
+    background: url(../images/bodybackground.jpg);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 100px;
+    content: border-box;
+}
+
+main{
+    background-color: rgba(248, 157, 244, 0.836);
+    padding: 10%;
+    border-radius: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+.productoT{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.precioT{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cantidadT{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.tipoDeProductoT{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.producto{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.precio{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cantidad{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.tipoDeProducto{
+    font-size: 20px;
+    padding: 10px;
+}
