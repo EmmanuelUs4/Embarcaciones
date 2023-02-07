@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T13:47:20.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0 (Edition std-1)" etag="81zphYKFzh6e5RF4J1ov" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T13:51:27.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0 (Edition std-1)" etag="KIx8wOiqYcHaEuv4xpYl" version="20.8.16" type="github">
   <diagram name="Página-1" id="EPSWggvEX3iG3CGg5WgE">
     <mxGraphModel dx="993" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="zPszQ8eyArIKYijH8GfF-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-1">
           <mxGeometry y="130" width="440" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="zPszQ8eyArIKYijH8GfF-4" value="+Embarcacion(int precioBase, int valorAdicional, int añoFabricacion,  int eslora)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-1">
+        <mxCell id="zPszQ8eyArIKYijH8GfF-4" value="+Embarcacion(int precioBase, int valorAdicional, int dateFabricacion,  int eslora)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-1">
           <mxGeometry y="138" width="440" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zPszQ8eyArIKYijH8GfF-21" value="+ getPreciobase():int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-1">
@@ -73,7 +73,7 @@
         <mxCell id="zPszQ8eyArIKYijH8GfF-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-25">
           <mxGeometry y="52" width="470" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="zPszQ8eyArIKYijH8GfF-33" value="+Veleros(int mastiles,int precioBase, int valorAdicional, int añoFabricacion,  int eslora&#xa;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-25">
+        <mxCell id="zPszQ8eyArIKYijH8GfF-33" value="+Veleros(int mastiles,int precioBase, int valorAdicional, int dateFabricacion,  int eslora&#xa;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-25">
           <mxGeometry y="60" width="470" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zPszQ8eyArIKYijH8GfF-28" value="+ getMastiles(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-25">
@@ -88,7 +88,7 @@
         <mxCell id="zPszQ8eyArIKYijH8GfF-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-29">
           <mxGeometry y="52" width="470" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="zPszQ8eyArIKYijH8GfF-32" value="+Yates(int camarotes,int precioBase, int valorAdicional, int añoFabricacion,  int eslora&#xa;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-29">
+        <mxCell id="zPszQ8eyArIKYijH8GfF-32" value="+Yates(int camarotes,int precioBase, int valorAdicional, int dateFabricacion,  int eslora&#xa;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-29">
           <mxGeometry y="60" width="470" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zPszQ8eyArIKYijH8GfF-34" value="+getCamarotes():int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zPszQ8eyArIKYijH8GfF-29">
